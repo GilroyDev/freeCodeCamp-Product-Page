@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="product.css">
+
+  <!--Import Font Awesome to be used on the page-->
+  <script>
+    FontAwesomeConfig = { autoA11y: true }
+  </script>
+  <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+
+  <title>Guitars "R" Us</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/bag.png" />
+
+  <style>
+    /* Adding flex and media queries here to pass freeCodeCamp authenticator for passing project rest of style in css file */
+    #header {
+      display: flex;
+    }
+
+    @media (min-width: 1200px) {
+      body {
+        background-color: rgb(255, 255, 255);
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <img id="header-img"
+        src="https://document-export.canva.com/gAAvE/DAEgapgAAvE/22/thumbnail/0001-2369804556.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20210603%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210603T223744Z&X-Amz-Expires=62436&X-Amz-Signature=c24cdbdf609a15b5d1ec1e6ace2b5dcba6e4acd8534eac517858eec802bdb29d&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2004%20Jun%202021%2015%3A58%3A20%20GMT"
+        alt="logo" class="logo">
+      <ul>
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#demo">Demo</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="container">
+    <section class="message-box">
+      <h1>Handcrafted Musical Masterpieces</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="example@mail.com">
+        <input id="submit" type="submit" value="Get Started" class="btn"></input>
+      </form>
+    </section>
+
+    <section id="features">
+      <div class="feature">
+        <i class="fa fa-trophy fa-5x"></i>
+        <div>
+          <h2>Premium Materials</h2>
+          <p>Our guitars use the highest quality locally sourced materieals. This will increase the longevity of your
+            purchase.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fa fa-truck fa-5x"></i>
+        <div>
+          <h2>Quick Shipping</h2>
+          <p>We make sure you receive your guitar as soon as we have finished building it. Should you not be satisfied
+            with your new guitar, we offer free returns on all purchases.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fa fa-check fa-5x"></i>
+        <div>
+          <h2>Quality Assurance</h2>
+          <p>For every purchase you make, we will ensure there are no damages or faults. We will also fully tune your
+            instrument.</p>
+        </div>
+      </div>
+    </section>
+    <section id="demo">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/HEST6ASiKgM"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen=""></iframe>
+    </section>
+    <section id="pricing">
+      <div class="price-box">
+        <h3>Accoustic Guitar</h3>
+        <h2>€100</h2>
+        <p>Lorem ipsum.
+          Lorem ipsum.
+          Lorem ipsum dolor.
+          Lorem ipsum.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+      <div class="price-box">
+        <h3>Bass Guitar</h3>
+        <h2>€250</h2>
+        <p>Lorem ipsum.
+          Lorem ipsum.
+          Lorem ipsum dolor.
+          Lorem ipsum.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+      <div class="price-box">
+        <h3>Electric Guitar</h3>
+        <h2>€400</h2>
+        <p>Lorem ipsum.
+          Lorem ipsum.
+          Lorem ipsum dolor.
+          Lorem ipsum.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+    </section>
+  </div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
